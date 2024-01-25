@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.heading{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #CCE612;
+}
+.nav{
+    
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 150px;
+}
+li{
+    list-style: none;
+    
+}
+ul li span{
+    color: black;
+}
+
+.button{
+    height: 70px;
+    width: 50px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+    
+    
+}
+.buttoncontainer span{
+    font-size: 20px;
+}
+.button span{
+    font-size: 30px;
+}
+.selectlist{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    height: 50px;
+
+}
+.searchinput{
+    background-color: transparent;
+    border: none;
+    width: 300px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+}
+.searchinput:focus{
+    outline: none;
+}
+.inputcontainer{
+    
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body{
+    background-image: url('./products/images.jpg');
+    
+}
+.selectlist select{
+    
+    background-color: transparent;
+}
+.selectlist select:focus{
+    outline: none;
+}
+.pornstarcontainer{
+    height:460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.container2{
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px wheat ;
+    width:20vw;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.imagecontainer{
+    height:300px;
+    width:250px;
+   
+
+}
+.name{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.description{
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.button{
+    
+    width:50px;
+    height:50px;
+}
+.cartcontainer{
+    display: grid;
+    grid-template-columns:350px 350px 350px 350px;
+    gap:10px;
+    
+    
+}
+
+.liya-silver{
+    height:350px;
+    width:350px;
+}
+.monaazargif{
+    width:400px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    
+    position: relative;
+    right: 10px;
+    
+}
+.mona-azar{
+    width:250px;
+    height:440px;
+}
+.monaazar{
+    width:350px;
+    height:300px;
+    position: relative;
+
+}
+.imageandgifcontainer{
+    
+    height: 460px;
+    width:100vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+    
+
+.video{
+    height:460px;   
+    position: relative;
+     
+}
+.twoimagecontainer{
+    width:350px;
+    height:460px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.elsa{
+    width:300px;
+    height: 460px;
+}
